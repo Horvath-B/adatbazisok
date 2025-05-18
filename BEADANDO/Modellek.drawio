@@ -948,7 +948,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Fizikai modell" id="xzK0mciuZ7Uv-Yzl9Xxz">
-    <mxGraphModel dx="2193" dy="1442" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1508" dy="991" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="zmA2PM9Y_8ky3QjW4vLo-0" />
         <mxCell id="zmA2PM9Y_8ky3QjW4vLo-1" parent="zmA2PM9Y_8ky3QjW4vLo-0" />
@@ -976,7 +976,7 @@
             <mxRectangle width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-8" value="Nvarchar(20), not null" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-6" vertex="1">
+        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-8" value="Varchar(20), not null" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-6" vertex="1">
           <mxGeometry x="100" width="170" height="30" as="geometry">
             <mxRectangle width="170" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -989,7 +989,7 @@
             <mxRectangle width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-11" value="Nvarchar(20), not null" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-9" vertex="1">
+        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-11" value="Varchar(20), not null" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-9" vertex="1">
           <mxGeometry x="100" width="170" height="30" as="geometry">
             <mxRectangle width="170" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1002,7 +1002,7 @@
             <mxRectangle width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-14" value="Nvarchar(50), not null" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-12" vertex="1">
+        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-14" value="Varchar(50), not null" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-12" vertex="1">
           <mxGeometry x="100" width="170" height="30" as="geometry">
             <mxRectangle width="170" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1044,7 +1044,7 @@
             <mxRectangle width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-24" value="Nvarchar(20), not null" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-22" vertex="1">
+        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-24" value="Varchar(20), not null" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-22" vertex="1">
           <mxGeometry x="80" width="170" height="30" as="geometry">
             <mxRectangle width="170" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1112,7 +1112,7 @@
             <mxRectangle width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-46" value="Nvarchar(10)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-44" vertex="1">
+        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-46" value="Varchar(10)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-44" vertex="1">
           <mxGeometry x="90" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1154,7 +1154,7 @@
             <mxRectangle width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-56" value="Nvarchar(10), not null, (benzin, dizel, elektromos)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-54" vertex="1">
+        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-56" value="Varchar(10), not null, (benzin, dizel, elektromos)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-54" vertex="1">
           <mxGeometry x="110" width="280" height="30" as="geometry">
             <mxRectangle width="280" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1167,7 +1167,7 @@
             <mxRectangle width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-59" value="Nvarchar(10), not null" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-57" vertex="1">
+        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-59" value="Varchar(10), not null" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-57" vertex="1">
           <mxGeometry x="110" width="280" height="30" as="geometry">
             <mxRectangle width="280" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1180,7 +1180,7 @@
             <mxRectangle width="110" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-62" value="Nvarchar(15)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-60" vertex="1">
+        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-62" value="Varchar(15)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-60" vertex="1">
           <mxGeometry x="110" width="280" height="30" as="geometry">
             <mxRectangle width="280" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -1295,7 +1295,7 @@
             <mxRectangle width="80" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-88" value="Nvarchar(8), not null, (reszlet; atutalas; keszpenz)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-86" vertex="1">
+        <mxCell id="zmA2PM9Y_8ky3QjW4vLo-88" value="Varchar(8), not null, (reszlet; atutalas; keszpenz)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=0;overflow=hidden;whiteSpace=wrap;html=1;" parent="zmA2PM9Y_8ky3QjW4vLo-86" vertex="1">
           <mxGeometry x="80" width="281" height="30" as="geometry">
             <mxRectangle width="281" height="30" as="alternateBounds" />
           </mxGeometry>
