@@ -27,16 +27,24 @@ CREATE TABLE Meghajtas
     CONSTRAINT chkLoero
     CHECK(Loero > 0),
     CONSTRAINT chkHengerurtartalom
-    CHECK(Hengerurtartalom > 0)
+    CHECK(Hengerurtartalom > 0), 
+  	CONSTRAINT chkUzemanyag
+  	CHECK(Uzemanyag IN ('benzin', 'dizel', 'elektromos'))
 )
+
+CREATE TABLE Modell
+(
+  ModellID int PRIMARY KEY,
+  Felszereltseg varchar(15),
+  Tipus varchar(10) NOT NULL,
+  Marka varchar(10) NOT NULL,
+ )
 
 CREATE TABLE Autok
 (
-    AutoID int PRIMARY KEY,
-    Marka varchar(10) NOT NULL,
-    Tipus varchar(10) NOT NULL,
-    Felszereltseg varchar(15),
-    Meghajtas int,
+    AutoID int PRIMARY KEY, 
+    Modell int NOT NULL,    
+    Meghajtas int NOT NULL,
     Szin varchar(10),
     Ar int NOT NULL,
 
@@ -45,7 +53,11 @@ CREATE TABLE Autok
 
     CONSTRAINT fkMeghajtas
     FOREIGN KEY (Meghajtas)
-    REFERENCES Meghajtas (MeghajtasID)
+    REFERENCES Meghajtas (MeghajtasID),
+  
+  	CONSTRAINT fkModell
+  	FOREIGN KEY (Modell)
+  	REFERENCES Modell (ModellID)
 )
 
 CREATE TABLE Vetel
@@ -67,5 +79,8 @@ CREATE TABLE Vetel
 
     CONSTRAINT fkKocsi
     FOREIGN KEY (Kocsi)
-    REFERENCES Autok (AutoID)
+    REFERENCES Autok (AutoID),
+  
+ 	CONSTRAINT chkFizetesiMod
+  	CHECK (FizetesiMod IN ('reszlet', 'atutalas', 'keszpenz'))
 )
