@@ -94,7 +94,7 @@
             // 
             // textBox2
             // 
-            textBox2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBox2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             textBox2.Location = new Point(109, 299);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(100, 23);
@@ -102,7 +102,7 @@
             // 
             // textBox3
             // 
-            textBox3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBox3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             textBox3.Location = new Point(215, 299);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(100, 23);
@@ -110,7 +110,7 @@
             // 
             // textBox4
             // 
-            textBox4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBox4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             textBox4.Location = new Point(321, 299);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(100, 23);

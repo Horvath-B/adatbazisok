@@ -33,15 +33,15 @@
             button1 = new Button();
             textBox3 = new TextBox();
             dataGridView1 = new DataGridView();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox5 = new TextBox();
-            autoBindingSource = new BindingSource(components);
             autoIDDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             modellDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             meghajtasDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             szinDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             arDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            autoBindingSource = new BindingSource(components);
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            textBox5 = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)autoBindingSource).BeginInit();
             SuspendLayout();
@@ -71,7 +71,7 @@
             // textBox3
             // 
             textBox3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            textBox3.Location = new Point(420, 298);
+            textBox3.Location = new Point(402, 387);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(100, 23);
             textBox3.TabIndex = 17;
@@ -85,36 +85,8 @@
             dataGridView1.DataSource = autoBindingSource;
             dataGridView1.Location = new Point(3, 3);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(751, 289);
+            dataGridView1.Size = new Size(751, 378);
             dataGridView1.TabIndex = 16;
-            // 
-            // textBox1
-            // 
-            textBox1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            textBox1.Location = new Point(102, 298);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 21;
-            // 
-            // textBox2
-            // 
-            textBox2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            textBox2.Location = new Point(208, 298);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 22;
-            // 
-            // textBox5
-            // 
-            textBox5.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            textBox5.Location = new Point(314, 298);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(100, 23);
-            textBox5.TabIndex = 23;
-            // 
-            // autoBindingSource
-            // 
-            autoBindingSource.DataSource = typeof(Auto);
             // 
             // autoIDDataGridViewTextBoxColumn
             // 
@@ -145,6 +117,34 @@
             arDataGridViewTextBoxColumn.DataPropertyName = "Ar";
             arDataGridViewTextBoxColumn.HeaderText = "Ar";
             arDataGridViewTextBoxColumn.Name = "arDataGridViewTextBoxColumn";
+            // 
+            // autoBindingSource
+            // 
+            autoBindingSource.DataSource = typeof(Auto);
+            // 
+            // textBox1
+            // 
+            textBox1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            textBox1.Location = new Point(84, 387);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(100, 23);
+            textBox1.TabIndex = 21;
+            // 
+            // textBox2
+            // 
+            textBox2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            textBox2.Location = new Point(190, 387);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(100, 23);
+            textBox2.TabIndex = 22;
+            // 
+            // textBox5
+            // 
+            textBox5.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            textBox5.Location = new Point(296, 387);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(100, 23);
+            textBox5.TabIndex = 23;
             // 
             // UserControl4
             // 

@@ -17,7 +17,7 @@ namespace InsertParancsGenerator
         public UserControl6()
         {
             InitializeComponent();
-            modellBindingSource = modellek;
+            modellBindingSource.DataSource = modellek;
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -34,13 +34,13 @@
             textBox4 = new TextBox();
             textBox3 = new TextBox();
             dataGridView1 = new DataGridView();
-            vetelBindingSource = new BindingSource(components);
             vetelIDDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             vevoDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             uzletkotoDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             kocsiDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             datumDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             fizetesiModDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            vetelBindingSource = new BindingSource(components);
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             textBox5 = new TextBox();
@@ -72,7 +72,7 @@
             // 
             // textBox4
             // 
-            textBox4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBox4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             textBox4.Location = new Point(381, 348);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(93, 23);
@@ -80,7 +80,7 @@
             // 
             // textBox3
             // 
-            textBox3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBox3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             textBox3.Location = new Point(282, 348);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(93, 23);
@@ -95,12 +95,8 @@
             dataGridView1.DataSource = vetelBindingSource;
             dataGridView1.Location = new Point(3, 3);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(660, 289);
+            dataGridView1.Size = new Size(660, 339);
             dataGridView1.TabIndex = 16;
-            // 
-            // vetelBindingSource
-            // 
-            vetelBindingSource.DataSource = typeof(Vetel);
             // 
             // vetelIDDataGridViewTextBoxColumn
             // 
@@ -138,9 +134,13 @@
             fizetesiModDataGridViewTextBoxColumn.HeaderText = "FizetesiMod";
             fizetesiModDataGridViewTextBoxColumn.Name = "fizetesiModDataGridViewTextBoxColumn";
             // 
+            // vetelBindingSource
+            // 
+            vetelBindingSource.DataSource = typeof(Vetel);
+            // 
             // textBox1
             // 
-            textBox1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBox1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             textBox1.Location = new Point(84, 348);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(93, 23);
@@ -148,7 +148,7 @@
             // 
             // textBox2
             // 
-            textBox2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBox2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             textBox2.Location = new Point(183, 348);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(93, 23);
@@ -156,7 +156,7 @@
             // 
             // textBox5
             // 
-            textBox5.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBox5.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             textBox5.Location = new Point(480, 348);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(93, 23);

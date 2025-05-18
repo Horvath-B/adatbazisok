@@ -68,7 +68,7 @@
             // 
             // textBox4
             // 
-            textBox4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBox4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             textBox4.Location = new Point(190, 298);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(100, 23);
@@ -76,7 +76,7 @@
             // 
             // textBox3
             // 
-            textBox3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            textBox3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             textBox3.Location = new Point(84, 298);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(100, 23);
