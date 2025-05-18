@@ -20,3 +20,26 @@ C:\Users\Gep\OneDrive - Corvinus University of Budapest\adatbazis\InsertParancsG
 C:\Users\Gep\OneDrive - Corvinus University of Budapest\adatbazis\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.genruntimeconfig.cache
 C:\Users\Gep\OneDrive - Corvinus University of Budapest\adatbazis\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\ref\InsertParancsGenerator.dll
 C:\Users\Gep\OneDrive - Corvinus University of Budapest\adatbazis\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.UserControl6.resources
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\bin\Debug\net8.0-windows\InsertParancsGenerator.exe
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\bin\Debug\net8.0-windows\InsertParancsGenerator.deps.json
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\bin\Debug\net8.0-windows\InsertParancsGenerator.runtimeconfig.json
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\bin\Debug\net8.0-windows\InsertParancsGenerator.dll
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\bin\Debug\net8.0-windows\InsertParancsGenerator.pdb
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.Form1.resources
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.UserControl1.resources
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.UserControl2.resources
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.UserControl3.resources
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.UserControl4.resources
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.UserControl5.resources
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.UserControl6.resources
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.csproj.GenerateResource.cache
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.GeneratedMSBuildEditorConfig.editorconfig
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.AssemblyInfoInputs.cache
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.AssemblyInfo.cs
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.csproj.CoreCompileInputs.cache
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.sourcelink.json
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.dll
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\refint\InsertParancsGenerator.dll
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.pdb
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\InsertParancsGenerator.genruntimeconfig.cache
+D:\_GitHub\adatbazisok\BEADANDO\InsertParancsGenerator\InsertParancsGenerator\obj\Debug\net8.0-windows\ref\InsertParancsGenerator.dll

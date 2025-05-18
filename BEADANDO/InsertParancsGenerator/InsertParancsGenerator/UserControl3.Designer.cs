@@ -51,7 +51,7 @@
             // button2
             // 
             button2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            button2.Location = new Point(3, 299);
+            button2.Location = new Point(2, 339);
             button2.Name = "button2";
             button2.Size = new Size(75, 23);
             button2.TabIndex = 20;
@@ -62,7 +62,7 @@
             // button1
             // 
             button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            button1.Location = new Point(631, 297);
+            button1.Location = new Point(630, 337);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 19;
@@ -73,7 +73,7 @@
             // textBox4
             // 
             textBox4.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            textBox4.Location = new Point(379, 300);
+            textBox4.Location = new Point(378, 340);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(92, 23);
             textBox4.TabIndex = 18;
@@ -81,7 +81,7 @@
             // textBox3
             // 
             textBox3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            textBox3.Location = new Point(284, 300);
+            textBox3.Location = new Point(283, 340);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(89, 23);
             textBox3.TabIndex = 17;
@@ -95,7 +95,7 @@
             dataGridView1.DataSource = meghajtasBindingSource;
             dataGridView1.Location = new Point(3, 3);
             dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(703, 289);
+            dataGridView1.Size = new Size(703, 331);
             dataGridView1.TabIndex = 16;
             // 
             // meghajtasIDDataGridViewTextBoxColumn
@@ -141,7 +141,7 @@
             // textBox1
             // 
             textBox1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            textBox1.Location = new Point(94, 300);
+            textBox1.Location = new Point(93, 340);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(89, 23);
             textBox1.TabIndex = 21;
@@ -149,7 +149,7 @@
             // textBox2
             // 
             textBox2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            textBox2.Location = new Point(189, 299);
+            textBox2.Location = new Point(188, 339);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(89, 23);
             textBox2.TabIndex = 22;
@@ -157,7 +157,7 @@
             // textBox5
             // 
             textBox5.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-            textBox5.Location = new Point(477, 300);
+            textBox5.Location = new Point(476, 340);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(89, 23);
             textBox5.TabIndex = 23;

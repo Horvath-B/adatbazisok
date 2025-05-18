@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gep\\OneDrive - Corvinus University of Budapest\\adatbazis\\InsertParancsGenerator\\InsertParancsGenerator\\InsertParancsGenerator.csproj",
+      "projectUniqueName": "D:\\_GitHub\\adatbazisok\\BEADANDO\\InsertParancsGenerator\\InsertParancsGenerator\\InsertParancsGenerator.csproj",
       "projectName": "InsertParancsGenerator",
-      "projectPath": "C:\\Users\\Gep\\OneDrive - Corvinus University of Budapest\\adatbazis\\InsertParancsGenerator\\InsertParancsGenerator\\InsertParancsGenerator.csproj",
+      "projectPath": "D:\\_GitHub\\adatbazisok\\BEADANDO\\InsertParancsGenerator\\InsertParancsGenerator\\InsertParancsGenerator.csproj",
       "packagesPath": "C:\\Users\\Gep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gep\\OneDrive - Corvinus University of Budapest\\adatbazis\\InsertParancsGenerator\\InsertParancsGenerator\\obj\\",
+      "outputPath": "D:\\_GitHub\\adatbazisok\\BEADANDO\\InsertParancsGenerator\\InsertParancsGenerator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
