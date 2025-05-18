@@ -8,3 +8,7 @@ INSERT INTO Vevo (vevoid, nev, telefonszam, cim, maganszemely) VALUES (7, 'Kis K
 INSERT INTO Vevo (vevoid, nev, telefonszam, cim, maganszemely) VALUES (8, 'PVX Zrt.', '+36706472872', 'Szentendre Jókai utca 14.', 0)
 INSERT INTO Vevo (vevoid, nev, telefonszam, cim, maganszemely) VALUES (9, 'Lengyel Anna', '+36306472563', 'Érd Lehel utca 25.', 1)
 INSERT INTO Vevo (vevoid, nev, telefonszam, cim, maganszemely) VALUES (10, 'Chrenkó Zsuzsa', '+36309376156', 'Sóskút Rákóczi utca 12.', 1)
+INSERT INTO Vevo (VevoID,Nev,Telefonszam,Cim,Maganszemely) VALUES (11,'Szűcs Anett','+36206665544','Eger',1)
+INSERT INTO Vevo (VevoID,Nev,Telefonszam,Cim,Maganszemely) VALUES (12,'Jakab Laura','+36203334455','Szolnok',1)
+INSERT INTO Vevo (VevoID,Nev,Telefonszam,Cim,Maganszemely) VALUES (13,'Kovács Anna','+36201234567','Budapest',1)
+INSERT INTO Vevo (VevoID,Nev,Telefonszam,Cim,Maganszemely) VALUES (14,'Varga Péter','+36205556666','Miskolc',1)

@@ -1,0 +1,7 @@
+INSERT INTO Meghajtas (meghajtasid, uzemanyag, fajta, tipus, hengerurtartalom, loero) VALUES (1, 'benzin', 'V8', 'biturbo', 4000, 250)
+INSERT INTO Meghajtas (meghajtasid, uzemanyag, fajta, tipus, hengerurtartalom, loero) VALUES (2, 'benzin', 'sor6', 'turbo', 3000, 190)
+INSERT INTO Meghajtas (meghajtasid, uzemanyag, fajta, tipus, hengerurtartalom, loero) VALUES (3, 'benzin', 'sor4', 'turbo', 1900, 120)
+INSERT INTO Meghajtas (meghajtasid, uzemanyag, fajta, tipus, hengerurtartalom, loero) VALUES (4, 'elektromos', 'e-Platform', NULL, NULL, 201)
+INSERT INTO Meghajtas (meghajtasid, uzemanyag, fajta, tipus, hengerurtartalom, loero) VALUES (5, 'dizel', 'sor4', 'tdi', 1800, 110)
+INSERT INTO Meghajtas (meghajtasid, uzemanyag, fajta, tipus, hengerurtartalom, loero) VALUES (6, 'dizel', 'sor6', 'tdi', 2000, 175)
+INSERT INTO Meghajtas (meghajtasid, uzemanyag, fajta, tipus, hengerurtartalom, loero) VALUES (7, 'dizel', 'sor3', 'hCi', 1400, 76)
