@@ -43,7 +43,7 @@ namespace InsertParancsGenerator
 
                 foreach (var i in modellek)
                 {
-                    sw.WriteLine($"INSERT INTO Uzletkoto (modellid, marka, tipus, felszereltseg) VALUES ({i.ModellID}, {i.Marka}, {i.Tipus}, {i.Felszereltseg})");
+                    sw.WriteLine($"INSERT INTO Uzletkoto (modellid, marka, tipus, felszereltseg) VALUES ({i.ModellID}, '{i.Marka}', '{i.Tipus}', '{i.Felszereltseg}')");
                 }
 
                 sw.Close();

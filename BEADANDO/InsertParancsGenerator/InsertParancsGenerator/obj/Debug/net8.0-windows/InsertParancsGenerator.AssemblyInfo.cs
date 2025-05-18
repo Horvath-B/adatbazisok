@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InsertParancsGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0410787330bd2fd12a1a7b3492ae5cfd7c87aa0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+753dcb1b6ce1707373d57097c41f1983b7b6f13b")]
 [assembly: System.Reflection.AssemblyProductAttribute("InsertParancsGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InsertParancsGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

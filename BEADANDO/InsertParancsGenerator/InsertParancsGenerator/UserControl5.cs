@@ -29,7 +29,7 @@ namespace InsertParancsGenerator
 
                 foreach (var i in vetelek)
                 {
-                    sw.WriteLine($"INSERT INTO Vetel (VetelID, Vevo, Uzletkoto, Kocsi, Datum, FizetesiMod) VALUES ({i.VetelID}, {i.Vevo}, {i.Uzletkoto}, {i.Kocsi}, {i.Datum}, {i.FizetesiMod})");
+                    sw.WriteLine($"INSERT INTO Vetel (VetelID, Vevo, Uzletkoto, Kocsi, Datum, FizetesiMod) VALUES ({i.VetelID}, {i.Vevo}, {i.Uzletkoto}, {i.Kocsi}, '{i.Datum}', '{i.FizetesiMod}')");
                 }
 
                 sw.Close();

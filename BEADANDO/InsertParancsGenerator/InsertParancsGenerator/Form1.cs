@@ -72,32 +72,32 @@ namespace InsertParancsGenerator
                 {
                     int msz = 0;
                     if (i.Maganszemely) msz = 1;
-                    sw.WriteLine($"INSERT INTO Vevo (vevoid, nev, telefonszam, cim, maganszemely) VALUES ({i.VevoID}, {i.Nev}, {i.Telefonszam}, {i.Cim}, {msz})");
+                    sw.WriteLine($"INSERT INTO Vevo (vevoid, nev, telefonszam, cim, maganszemely) VALUES ({i.VevoID}, '{i.Nev}', '{i.Telefonszam}', '{i.Cim}', {msz})");
                 }
 
                 foreach (var i in uzletkotok)
                 {
-                    sw.WriteLine($"INSERT INTO Uzletkoto (uzletkotoid, nev, fizetes) VALUES ({i.UzletkotoID}, {i.Nev}, {i.Fizetes})");
+                    sw.WriteLine($"INSERT INTO Uzletkoto (uzletkotoid, nev, fizetes) VALUES ({i.UzletkotoID}, '{i.Nev}', {i.Fizetes})");
                 }
 
                 foreach (var i in meghajtasok)
                 {
-                    sw.WriteLine($"INSERT INTO Meghajtas (meghajtasid, uzemanyag, fajta, tipus, hengerurtartalom, loero) VALUES ({i.MeghajtasID}, {i.Uzemanyag}, {i.Fajta}, {i.Tipus}, {i.Hengerurtartalom}, {i.Loero})");
+                    sw.WriteLine($"INSERT INTO Meghajtas (meghajtasid, uzemanyag, fajta, tipus, hengerurtartalom, loero) VALUES ({i.MeghajtasID}, '{i.Uzemanyag}', '{i.Fajta}', '{i.Tipus}', {i.Hengerurtartalom}, {i.Loero})");
                 }
 
                 foreach (var i in modellek)
                 {
-                    sw.WriteLine($"INSERT INTO Uzletkoto (modellid, marka, tipus, felszereltseg) VALUES ({i.ModellID}, {i.Marka}, {i.Tipus}, {i.Felszereltseg})");
+                    sw.WriteLine($"INSERT INTO Uzletkoto (modellid, marka, tipus, felszereltseg) VALUES ({i.ModellID}, '{i.Marka}', '{i.Tipus}', '{i.Felszereltseg}')");
                 }
 
                 foreach (var i in autok)
                 {
-                    sw.WriteLine($"INSERT INTO Autok (AutoID, Modell, Meghajtas, szin, Ar) VALUES ({i.AutoID}, {i.Modell}, {i.Meghajtas}, {i.Szin}, {i.Ar})");
+                    sw.WriteLine($"INSERT INTO Autok (AutoID, Modell, Meghajtas, szin, Ar) VALUES ({i.AutoID}, {i.Modell}, {i.Meghajtas}, '{i.Szin}', {i.Ar})");
                 }
 
                 foreach (var i in vetelek)
                 {
-                    sw.WriteLine($"INSERT INTO Vetel (VetelID, Vevo, Uzletkoto, Kocsi, Datum, FizetesiMod) VALUES ({i.VetelID}, {i.Vevo}, {i.Uzletkoto}, {i.Kocsi}, {i.Datum}, {i.FizetesiMod})");
+                    sw.WriteLine($"INSERT INTO Vetel (VetelID, Vevo, Uzletkoto, Kocsi, Datum, FizetesiMod) VALUES ({i.VetelID}, {i.Vevo}, {i.Uzletkoto}, {i.Kocsi}, '{i.Datum}', '{i.FizetesiMod}')");
                 }
 
                 sw.Close();

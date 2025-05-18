@@ -46,7 +46,7 @@ namespace InsertParancsGenerator
 
                 foreach (var i in meghajtas)
                 {
-                    sw.WriteLine($"INSERT INTO Meghajtas (meghajtasid, uzemanyag, fajta, tipus, hengerurtartalom, loero) VALUES ({i.MeghajtasID}, {i.Uzemanyag}, {i.Fajta}, {i.Tipus}, {i.Hengerurtartalom}, {i.Loero})");
+                    sw.WriteLine($"INSERT INTO Meghajtas (meghajtasid, uzemanyag, fajta, tipus, hengerurtartalom, loero) VALUES ({i.MeghajtasID}, '{i.Uzemanyag}', '{i.Fajta}', '{i.Tipus}', {i.Hengerurtartalom}, {i.Loero})");
                 }
 
                 sw.Close();

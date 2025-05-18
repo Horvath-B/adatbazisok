@@ -46,7 +46,7 @@ namespace InsertParancsGenerator
                 {
                     int msz = 0;
                     if (i.Maganszemely) msz = 1;
-                    sw.WriteLine($"INSERT INTO Vevo (vevoid, nev, telefonszam, cim, maganszemely) VALUES ({i.VevoID}, {i.Nev}, {i.Telefonszam}, {i.Cim}, {msz})");
+                    sw.WriteLine($"INSERT INTO Vevo (vevoid, nev, telefonszam, cim, maganszemely) VALUES ({i.VevoID}, '{i.Nev}', '{i.Telefonszam}', '{i.Cim}', {msz})");
                 }
 
                 sw.Close();

@@ -44,7 +44,7 @@ namespace InsertParancsGenerator
 
                 foreach (var i in autok)
                 {
-                    sw.WriteLine($"INSERT INTO Autok (AutoID, Modell, Meghajtas, szin, Ar) VALUES ({i.AutoID}, {i.Modell}, {i.Meghajtas}, {i.Szin}, {i.Ar})");
+                    sw.WriteLine($"INSERT INTO Autok (AutoID, Modell, Meghajtas, szin, Ar) VALUES ({i.AutoID}, {i.Modell}, {i.Meghajtas}, '{i.Szin}', {i.Ar})");
                 }
 
                 sw.Close();
