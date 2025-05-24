@@ -110,9 +110,9 @@ Toth Otto     1980       pincer
 a. A rögzítés után listázza a Szemely tábla tartalmát, az utasításokat adja meg válaszként!
 
 ```js
-insert into Szemely(nev, szulev, foglalkozas) values ('Nagy Ivó', 1999, 'diák');
-insert into Szemely(nev, szulev, foglalkozas) values ('Tóth Ottó', 1980, 'pincér');
-insert into Szemely(nev, szulev, foglalkozas) values ('Kiss Béla', 2000, 'lakatos')
+insert into Szemely(nev, szulev, foglalkozas) values ('Nagy Ivó', 1999, 'diák')
+insert into Szemely(nev, szulev, foglalkozas) values ('Tóth Ottó', 1980, 'pincér')
+insert into Szemely(nev, szulev, foglalkozas) values ('Kiss Béla', 2000, 'lakatos');
 ```
 
 10. A Cassandra CQL Shell-ben készítsen indexet a Szemely táblához a foglalkozas oszlop alapján!
@@ -167,7 +167,12 @@ b. Nagy Ivo nyelvtudása legyen: 'angol' és 'francia'
 c. A szükséges parancsokat (2 db) adjuk meg válaszként!
 
 ```js
+ALTER TABLE szemely
+ADD nyelvtudas set<text>;
 
+UPDATE szemely
+SET nyelvtudas = nyelvtudas + {'angol', 'francia'}
+WHERE nev = 'Nagy Ivo' AND szulev = 1999 AND foglalkozas = 'diák';
 ```
 
 14. A Cassandra CQL Shell-ben adjon hozzá még egy új oszlopot a Szemely táblához!
@@ -179,7 +184,12 @@ b. Rögzítsük, hogy Kiss Bela esetén az Autok mező értéke: {'Skoda Fabia':
 c. A szükséges utasításokat (2 db) adjuk meg válaszként!
 
 ```js
+ALTER TABLE szemely
+ADD autok MAP<text, text>;
 
+UPDATE szemely
+SET autok = autok + {'Skoda Fabia': 'abc-111', 'Audi A4': 'xyz-222'}
+WHERE nev = 'Kiss Béla' AND szulev = 2000 AND foglalkozas = 'lakatos';
 ```
 
 15. A Cassandra CQL Shell-ben módosítsuk a Szemely tábla következő adatait:
@@ -192,7 +202,13 @@ c. A szükséges 2 utasítást adjuk meg válaszként!
 
 
 ```js
+UPDATE szemely
+SET nyelvtudas = nyelvtudas + {'német'}
+WHERE nev = 'Nagy Ivo' AND szulev = 1999 AND foglalkozas = 'diák';
 
+ UPDATE szemely
+ SET vegzettseg = vegzettseg + ['barmixer']
+ WHERE nev = 'Tóth Ottó' AND szulev = 1980 AND foglalkozas = 'pincér';
 ```
 
 
